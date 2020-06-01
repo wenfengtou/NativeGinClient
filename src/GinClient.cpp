@@ -15,7 +15,7 @@ void GinClient::setId(int id) {
     this->mId = id;
 }
 
-int GinClient::getId()   {
+int GinClient::getId() const {
     return this->mId;
 }
 

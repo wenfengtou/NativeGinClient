@@ -1,15 +1,30 @@
 # depslib dependency file v1.0
-1590651872 source:d:\work\nativeginclient\nativeginclient\main.cpp
+1590977962 source:d:\work\nativeginclient\nativeginclient\main.cpp
 	<iostream>
 	<string>
 	<vector>
 	<GinClient.h>
 	<string>
 	<pthread.h>
+	"Shape.h"
+	"Rectangle.h"
 
-1590650801 source:d:\work\nativeginclient\nativeginclient\src\ginclient.cpp
+1590978401 source:d:\work\nativeginclient\nativeginclient\src\ginclient.cpp
 	"GinClient.h"
 
-1590651200 d:\work\nativeginclient\nativeginclient\include\ginclient.h
+1590978372 d:\work\nativeginclient\nativeginclient\include\ginclient.h
 	<string>
+
+1590976712 source:d:\work\nativeginclient\nativeginclient\src\rectangle.cpp
+	"Rectangle.h"
+	<iostream>
+
+1590976629 d:\work\nativeginclient\nativeginclient\include\rectangle.h
+	"Shape.h"
+
+1590977132 d:\work\nativeginclient\nativeginclient\include\shape.h
+
+1590976727 source:d:\work\nativeginclient\nativeginclient\src\shape.cpp
+	"Shape.h"
+	<iostream>
 

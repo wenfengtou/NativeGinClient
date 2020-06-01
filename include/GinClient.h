@@ -8,7 +8,7 @@ class GinClient
     public:
         GinClient();
         virtual ~GinClient();
-        int getId();
+        int getId() const;
         void setId(int id);
         GinClient operator+(const GinClient& c) {
             GinClient client;
