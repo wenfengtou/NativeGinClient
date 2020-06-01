@@ -1,11 +1,15 @@
 # depslib dependency file v1.0
-1589687393 source:e:\codeblockproject\nativeginclient\nativeginclient\main.cpp
+1590651872 source:d:\work\nativeginclient\nativeginclient\main.cpp
 	<iostream>
-	"GinClient.h"
-
-1589688062 e:\codeblockproject\nativeginclient\nativeginclient\ginclient.h
 	<string>
+	<vector>
+	<GinClient.h>
+	<string>
+	<pthread.h>
 
-1589687967 source:e:\codeblockproject\nativeginclient\nativeginclient\ginclient.cpp
+1590650801 source:d:\work\nativeginclient\nativeginclient\src\ginclient.cpp
 	"GinClient.h"
+
+1590651200 d:\work\nativeginclient\nativeginclient\include\ginclient.h
+	<string>
 
