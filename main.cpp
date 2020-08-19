@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <GinClient.h>
+#include "GinClient.h"
 #include <string>
 #include <pthread.h>
 #include "Shape.h"
 #include "Rectangle.h"
+
 
 using namespace std;
 
@@ -93,7 +94,7 @@ void testNameSpace() {
 }
 
 template <typename T>
-inline T getMax(T a, T b) {
+inline const T getMax(const T a, const T b) {
    if (a > b) {
        return a;
    } else {
@@ -101,11 +102,25 @@ inline T getMax(T a, T b) {
    }
 }
 
+int isLittleEndian()
+{
+    union
+    {
+        char ch;
+        int a;
+    }a;
+
+    a.a = 1;
+    return (a.ch == 1);
+}
+
 int main()
 {
-    testNameSpace();
+    //testNameSpace();
 
-    float b = getMax(10.0, 25.7);
-    cout << "getMax " << b <<endl;
+    unsigned char b = 0x12;
+    unsigned char d = 0x34;
+    int sum = (b << 8) + d;
+
     return 0;
 }

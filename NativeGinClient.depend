@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1590977962 source:d:\work\nativeginclient\nativeginclient\main.cpp
+1597818722 source:d:\work\nativeginclient\nativeginclient\main.cpp
 	<iostream>
 	<string>
 	<vector>
-	<GinClient.h>
+	"GinClient.h"
 	<string>
 	<pthread.h>
 	"Shape.h"
